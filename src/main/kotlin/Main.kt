@@ -1,4 +1,11 @@
-fun main(args: Array<String>) {
-    println("Hello World!")
-
+fun main() {
+    car()
 }
+
+fun car() {
+    val carList = arrayListOf("BMW", "Mercedes Benz", "Lamborgini", "Ferrari", "Mazda")
+    carList.forEach {
+        println("Aku memiliki mobil: $it")
+    }
+}
+

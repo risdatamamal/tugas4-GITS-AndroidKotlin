@@ -11,5 +11,10 @@ fun car() {
     carList.forEach {
         println("Aku memiliki mobil: $it")
     }
+
+    /* carList.forEach {
+        println("Aku memiliki mobil: $it")
+    }
+     */
 }
 
